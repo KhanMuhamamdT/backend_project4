@@ -31,17 +31,6 @@ Web application will store , display the garage sale items.
     - quantity
     - unit_price 
 
-## Front page should show all the following
-
-- user_profile
-    - First_name
-    - last_name
-    - Email_address
-    
-- Event_registration
-- Item_details
-- 
-
 
 ## Schedule
 
