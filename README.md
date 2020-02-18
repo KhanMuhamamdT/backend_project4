@@ -15,18 +15,21 @@ Web application will store , display the garage sale items.
   - email_address
 
 - Event 
- - user_id  FK
- - event_id Pk
- - Event_name
- - event_date
- - start_time
- - end_time
+    - user_id  FK
+    - event_id Pk
+    - Event_name
+    - event_date
+    - start_time
+    - end_time
+    - status  (open ,closed)
 
 - Event_items
- - Item_ID
- - item_desc
- - quantity
- - unit_price 
+    
+    - Item_ID PK
+    - event_ID FK
+    - item_desc
+    - quantity
+    - unit_price 
 
 ## Front page should show all the following
 
@@ -44,10 +47,4 @@ Web application will store , display the garage sale items.
 
  - Monday - Approval
  - Tuesday - Backend , Collections
- - Wednesday - Postman Testing 
- - Thursday - Frontend Create profile
- - Friday - Landing Page 
- - Saturday - Event and Items page
- - Sunday - Event and Items page
- - Monday - Event List
- - Tuesday - Deployment 
+ 
