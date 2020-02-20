@@ -1,0 +1,15 @@
+[
+    {
+        "firstname": "Muhammad",
+        "lastname": "Khan",
+         "email" : "taimur.java@gmail.com",
+          "address" : "emily rd"
+    },
+    {
+        "firstname": "Mike",
+        "lastname": "John",
+        "email" : "Mike@hotmail.com",
+        "address" : "Foster rd"
+    }
+
+]
