@@ -5,6 +5,7 @@ const app = express();
 const cors = require('cors')
 const usersController = require('./controllers/user');
 const eventsController = require('./controllers/event');
+const itemController = require('./controllers/Item');
 
 
 // const postsController = require('./controllers/post');
@@ -21,12 +22,11 @@ app.use(parser.urlencoded({ extended: true }));
 //     res.redirect('/api/users')
 // });
 
-
 //users controller
 app.use('/api/users', usersController);
 //  events 
 app.use('/api/events', eventsController);
-
+app.use('/api/items', itemController);
 // //posts controller
 // app.use('/api/posts', postsController);
 
