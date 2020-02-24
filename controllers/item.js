@@ -24,6 +24,16 @@ router.delete("/:userID", (req, res) => {
     res.json(users)
   );
 });
+// deleting all 
+router.delete("/", (req, res) => {
+    console.log('default all delete');
+    Item.remove({ }).then(users =>
+             res.json(users)
+    );
+  });
+
+
+
 
 // Updating User
 router.put("/:userID", (req, res) => {

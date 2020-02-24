@@ -36,5 +36,7 @@ router.put("/:userID", (req, res) => {
 router.post("/", (req, res) => {
   console.log("Creation of record: ");
   User.create(req.body).then(users => res.json(users));
+  
+
 });
 module.exports = router;
